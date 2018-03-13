@@ -1,0 +1,31 @@
+{
+  "name": "lenews",
+  "version": "1.0.0",
+  "description": "lets users view and leave comments on the latest news",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClassyP/lenews.git"
+  },
+  "keywords": [
+    "news"
+  ],
+  "author": "classyp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClassyP/lenews/issues"
+  },
+  "homepage": "https://github.com/ClassyP/lenews#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongojs": "^2.5.0",
+    "mongoose": "^5.0.10",
+    "node": "^9.8.0",
+    "npm": "^5.7.1",
+    "save": "^2.3.2"
+  }
+}
