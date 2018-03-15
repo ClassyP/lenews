@@ -39,3 +39,4 @@ require("./controllers/Articles.js")(app);
 
 app.listen(8000, function() {
     console.log("App running on port 3000!");
+});
