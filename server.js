@@ -10,7 +10,7 @@ var exphbs = require("express-handlebars");
 var bodyParser = require("body-parser");
 
 // Set up our port to be either the host's designated port, or 3000
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 27017;
 
 // Instantiate our Express App
 var app = express();
