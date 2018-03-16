@@ -1,7 +1,3 @@
-// Web Scraper Homework Solution Example
-// (be sure to watch the video to see
-// how to operate the site in the browser)
-// -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
 
 // Require our dependencies
 var express = require("express");
@@ -21,7 +17,7 @@ var routes = require("./routes");
 // Designate our public folder as a static directory
 app.use(express.static("public"));
 
-// Connect Handlebars to our Express app
+// Connecting Handlebars to our Express app
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
